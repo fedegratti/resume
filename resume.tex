@@ -1,0 +1,181 @@
+% !TeX spellcheck = en_GB
+% !TeX program = pdflatex
+%
+% LuxSleek-CV 1.1 LaTeX template
+% Author: Andreï V. Kostyrka, University of Luxembourg
+%
+% 1.1: added tracking and letter-spacing for prettier lower caps, added `~` for language levels
+% 1.0: initial release
+
+\documentclass[11pt, a4paper]{article} 
+
+\usepackage[T1]{fontenc}     % We are using pdfLaTeX,
+\usepackage[utf8]{inputenc}  % hence this preparation
+\usepackage[british]{babel}  
+\usepackage[left = 0mm, right = 0mm, top = 0mm, bottom = 0mm]{geometry}
+\usepackage[stretch = 25, shrink = 25, tracking=true, letterspace=30]{microtype}  
+\usepackage{graphicx}        % To insert pictures
+\usepackage{xcolor}          % To add colour to the document
+\usepackage{marvosym}        % Provides icons for the contact details
+
+\usepackage{enumitem}        % To redefine spacing in lists
+\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
+
+\usepackage{FiraSans}        % Change this to use any font, but keep it simple
+\usepackage{fontawesome5}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{cvblue}{HTML}{304263}
+
+%%%%%%% USER COMMAND DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% These are the real workhorses of this template
+\newcommand{\dates}[1]{\hfill\mbox{\textbf{#1}}} % Bold stuff that doesn’t got broken into lines
+\newcommand{\is}{\par\vskip.5ex plus .4ex} % Item spacing
+\newcommand{\smaller}[1]{{\small$\diamond$\ #1}}
+\newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par%
+    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
+\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
+     \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[colorlinks = true, urlcolor = white, linkcolor = white]{hyperref}
+
+\begin{document}
+
+% Style definitions -- killing the unnecessary space and adding the skips explicitly
+\setlength{\topskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\pagestyle{empty}
+\raggedbottom
+
+\begin{minipage}[t]{0.33\textwidth} %% Left column -- outer definition
+%  Left column -- top dark rectangle
+
+% \vspace{-.2ex} % Eliminates the small gap
+\colorbox{cvblue!90}{\color{white}  %% LEFT BOX
+\kern0.09\textwidth\relax% Left margin provided explicitly
+\begin{minipage}[t][297mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{4.5ex}
+
+\LARGE Federico Gratti \normalsize 
+
+{\small Full Stack Developer}
+
+\vspace*{0.5ex} % Extra space after the picture
+
+\headleft{Info}
+\small % To fit more content
+\makebox[1em][c]{\faIcon{birthday-cake}}\hspace{0.4em}{\small 20 September 1990} \\[0.4ex]
+\makebox[1em][c]{\faIcon{map-marker-alt}}\hspace{0.4em}\href{https://maps.app.goo.gl/cADAfNeVxmCRT9Km8}{La Plata, Argentina} \\[0.5ex]
+\makebox[1em][c]{\faIcon{github}}\hspace{0.4em}\href{https://github.com/fedegratti}{github.com/fedegratti} \\[0.5ex]
+\makebox[1em][c]{\faIcon{envelope}}\hspace{0.4em}\href{mailto:federicogratti@gmail.com}{federicogratti@gmail.com} \\[0.4ex]
+% \makebox[1em][c]{\faIcon{mobile-alt}}\hspace{0.4em}+54\,9\,221\,547\,8491 \\[0.5ex] 
+\normalsize
+
+\headleft{About me}
+Technology has always been more than a job for me. 
+
+I genuinely enjoy building applications in my free time and exploring new technologies out of curiosity. I’m a responsible and proactive engineer with strong soft communication skills, and a constant drive to learn and improve.
+
+\headleft{Insterests}
+I want to work in a company that support continuous professional and personal growth. I’m motivated by being part of collaborative teams that embrace new technologies and encourage constant learning.
+
+% \headleft{Personal information}
+% %Year of birth: \textbf{1861} \\[0.5ex]
+% Citizenship: \textbf{Argentina} \\[0.5ex]
+% Family: \textbf{Married without children} \\[0.5ex]
+% Languages: \textbf{English}~(B2), \textbf{Spanish}~(native)
+
+% \headleft{Skills}
+% \begin{itemize}
+% \item Ruby, Javascript, Typescript
+% \item Ruby on Rails, SQL, React.js
+% \item Three.js, Pug.js, SASS, HTML5, CSS3
+% \item Communication and team collaboration
+% \end{itemize} 
+
+\end{minipage}%
+\kern0.09\textwidth\relax%%Right margin provided explicitly to stretch the colourbox
+}
+\end{minipage}% Right column
+\hskip2.3em% Left margin for the white area
+\begin{minipage}[t]{0.58\textwidth}
+\setlength{\parskip}{0.8ex}% Adds spaces between paragraphs; use \\ to add new lines without this space. Shrink this amount to fit more data vertically
+
+\vspace{2ex}
+
+\headright{Experience}
+
+\textsc{Senior Full Stack Developer} at \textit{OHZI Interactive}  \dates{2021.12--present} \\
+\smaller{Developed production ready Ruby on Rails APIs for Interactive Experiences.} \\
+\smaller{Created automation tools to streamline development processes.} \\
+\smaller{Developed real-time communication between Backend and Frontend.} \\
+\smaller{Coordinated with team members and clients daily.} \\
+\smaller{Managed daily client interactions and business procedures at the company.} \\
+\smaller{Coordinated with employees to drive company growth and development.}
+
+{\small\textsc{Skills}: Ruby, JavaScript, TypeScript, Ruby on Rails, React.js, PostgreSQL, AWS.}
+
+\is
+\is
+\textsc{Senior Front End Developer} at \textit{OHZI Interactive}  \dates{2019.01--2021.12} \\
+\smaller{Created in-house JS framework to build performant 3D Web experiences.} \\
+\smaller{Developed 3D Web experiences using front-end skills.} \\
+\smaller{Collaborated with team to create intuitive and performant websites.}
+
+{\small\textsc{Skills}: JavaScript, TypeScript, REST APIs, Three.js, Git, Node.js, WebSocket.}
+
+\is
+\is
+\textsc{Full Stack Developer} at \textit{Weblinc Commerce} \dates{2016.03--2019.02} \\
+\smaller{Created 10+ e-commerce projects using in-house platform.} \\
+\smaller{Developed tailor-made apps for different Shopify stores.} \\
+\smaller{Worked with a remote team using Scrum methodology.}
+
+{\small\textsc{Skills}: Ruby, JavaScript, Ruby on Rails, MongoDB, Redis.}
+
+\is
+\is
+\textsc{Java SSR Developer} at \textit{Fluxit}  \dates{2015.03--2016.03} \\
+\smaller{Developed software for managing complex internal client workflows.} \\
+\smaller{Utilized Scrum methodology for agile development to ensure efficient delivery.} \\
+\smaller{Collaborated with team members to build a robust software solution.} \\
+\smaller{Enhanced problem-solving skills and gained expertise in Java development.}
+
+{\small\textsc{Skills}: Java, Spring, Scrum, SQL Server, Git, Agile methodologies.}
+
+\is
+\is
+\textsc{Game Developer} at \textit{Teardrop}  \dates{2014.01--2015.12} \\
+\smaller{Developed and designed the game Touch the Circle, using C\# and Unity3D.} \\
+\smaller{Worked with a small team of developers.} \\
+\smaller{Implemented tap and hold feature for player movement in the game.} \\
+\smaller{Developed the mobile game Foxy Fox, using C\#, Unity3D and Blender.} \\
+\smaller{Used many features of OOP, such as Herency, Polymorphism and Abstraction.} 
+
+{\small\textsc{Skills}: C\#, Unity3D, Git, Agile methodologies.}
+
+\is
+\headright{Education}
+
+\textsc{Computer Science}. \textit{Universidad Nacional de La Plata}. \dates{2011--2018}
+
+\is
+\textsc{Programmer Analyst}. \textit{Universidad Nacional de La Plata}. \dates{2011--2017}
+
+% \headright{Hobbies}
+
+% \textsc{Sing:} In my free time I go to a sing academy and perform 2 live shows per year.
+
+% \textsc{More programming:} I love programming in my free time, building small apps and exploring new technologies.
+
+% \textsc{Traveling:} I love to travel and explore new cultures and cuisines.
+
+% \textsc{Miscelxlaneous:} Movies, Broadway shows.
+
+\end{minipage}
+\end{document}
