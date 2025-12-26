@@ -2,18 +2,18 @@
 
 This repository contains my professional resume built with LaTeX using the LuxSleek-CV template.
 
-## 📄 View Resume
+## View Resume
 
 **[Download PDF Resume](./federico_gratti_resume.pdf)**
 
-## 🛠️ Built With
+## Built With
 
 - **LaTeX** - Document preparation system
 - **LuxSleek-CV Template** - Clean and professional CV template by Andreï V. Kostyrka, University of Luxembourg
 - **FiraSans Font** - Modern sans-serif typography
 - **FontAwesome5** - Professional icons
 
-## 🚀 Building the Resume
+## Building the Resume
 
 To compile the resume from source:
 
@@ -23,7 +23,7 @@ pdflatex federico_gratti_resume.tex
 
 Or use your preferred LaTeX editor/IDE.
 
-## 📋 Features
+## Features
 
 - Clean, professional layout with blue accent color
 - Two-column design optimized for readability
@@ -31,7 +31,7 @@ Or use your preferred LaTeX editor/IDE.
 - Structured sections for experience, education, and skills
 - Optimized for both screen viewing and printing
 
-## 📞 Contact
+## Contact
 
 - **Email**: [federicogratti@gmail.com](mailto:federicogratti@gmail.com)
 - **GitHub**: [github.com/fedegratti](https://github.com/fedegratti)
