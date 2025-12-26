@@ -4,7 +4,7 @@ This repository contains my professional resume built with LaTeX using the LuxSl
 
 ## 📄 View Resume
 
-**[Download PDF Resume](./resume.pdf)**
+**[Download PDF Resume](./federico_gratti_resume.pdf)**
 
 ## 🛠️ Built With
 
