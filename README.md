@@ -18,7 +18,7 @@ This repository contains my professional resume built with LaTeX using the LuxSl
 To compile the resume from source:
 
 ```bash
-pdflatex resume.tex
+pdflatex federico_gratti_resume.tex
 ```
 
 Or use your preferred LaTeX editor/IDE.
