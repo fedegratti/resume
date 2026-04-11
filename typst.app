@@ -1,4 +1,3 @@
-
 #import "@preview/silver-dev-cv:1.0.2": *
 
 #show: cv.with(
@@ -26,7 +25,7 @@
 #job(
   position: "Full Stack Developer",
   institution: [OHZI Interactive],
-  location: "Netherlands - Remote",
+  location: "Remote, Argentina",
   date: "2019-Present",
   description: [
     - Architected and maintained production-ready Ruby on Rails APIs, including real-time WebSocket communication layers between backend services and React frontends. Built and shipped full products from scratch such as Wishfultree (an immersive 3D holiday platform with Stripe payments) and Compress.mov (a cross-platform desktop video compressor published on the Mac App Store).
@@ -40,7 +39,7 @@
 #job(
   position: "Full Stack Developer",
   institution: [Weblinc Commerce],
-  location: "United States - Remote",
+  location: "Remote, Argentina",
   date: "2016-2019",
   description: [
     - Worked in a fully remote Scrum team across multiple time zones, owning features end-to-end from database design through deployment on AWS. Contributed to shared codebases and code review practices that supported a distributed engineering team.
@@ -52,7 +51,7 @@
 #job(
   position: "Full Stack Developer",
   institution: [Fluxit],
-  location: "Argentina",
+  location: "La Plata, Argentina",
   date: "2015-2016",
   description: [
     - Designed and built Rails monolith applications from scratch to manage internal client workflows, including database modeling with PostgreSQL, RESTful API design, and deployment to Heroku. 
