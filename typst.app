@@ -28,9 +28,9 @@
   location: "Remote, Argentina",
   date: "2019-Present",
   description: [
-    - Architected and maintained production-ready Ruby on Rails APIs, including real-time WebSocket communication layers between backend services and React frontends. Built and shipped full products from scratch such as Wishfultree (an immersive 3D holiday platform with Stripe payments) and Compress.mov (a cross-platform desktop video compressor published on the Mac App Store).
+    - Architected and maintained production-ready Ruby on Rails APIs with real-time WebSocket layers, powering client-facing products and full applications shipped from zero to production, including a holiday platform with Stripe integration and a video compressor published on the Mac App Store.
 
-    - Developed an in-house JavaScript framework for performant WebGL/3D web experiences, and built internal automation tooling that streamlined development workflows across the team.
+    - Developed an in-house JavaScript framework for performant interactive web experiences, and built internal automation tooling that streamlined development workflows across the team.
     
     - Led daily standups with clients, translating business requirements into technical execution and collaborating closely with designers to ship polished user experiences.
   ],
@@ -42,7 +42,7 @@
   location: "Remote, Argentina",
   date: "2016-2019",
   description: [
-    - Worked in a fully remote Scrum team across multiple time zones, owning features end-to-end from database design through deployment on AWS. Contributed to shared codebases and code review practices that supported a distributed engineering team.
+    - Worked in a fully remote Scrum team across multiple time zones, owning features end-to-end from database design through deployment on AWS, while contributing to shared codebases and code review practices that kept the distributed team aligned.
 
     - Delivered multiple e-commerce solutions on Ruby on Rails, building custom Shopify integrations and gems to meet specific store requirements.
   ],
@@ -69,7 +69,7 @@
 
 #sectionsep
 #section("Projects")
-#descript[Built and launched independent products including an e-commerce platform (repuestosgonnetsa.com.ar) on Rails with full RSpec coverage, service objects, and design patterns; a birthday celebration app (bdaycake.com); and an interactive 3D tennis game (hill.ohzi.io).]
+#descript[Built and launched independent products including an e-commerce platform (repuestosgonnetsa.com.ar) on Rails with full RSpec coverage, service objects, and design patterns; a birthday celebration app (bdaycake.com); and an interactive tennis experience (hill.ohzi.io).]
 
 
 #sectionsep
