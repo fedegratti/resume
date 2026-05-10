@@ -30,7 +30,7 @@
   description: [
     - Architected production Ruby on Rails APIs with real-time WebSocket layers serving thousands of daily users, including a holiday e-commerce platform processing \$5K+ in daily Stripe transactions
     - Shipped multiple products from zero to production, including a video compressor published on the Mac App Store and full-stack web platforms backed by PostgreSQL, Redis, and Sidekiq
-    - Built an in-house JavaScript framework for high-performance interactive web experiences, adopted across multiple client projects.
+    - Built an in-house JavaScript framework for high-performance interactive web experiences, adopted across multiple client projects
     - Created internal automation tooling that streamlined development workflows for a 12-person team and shortened delivery cycles
     - Owned client-facing technical communication: led daily standups, translated business requirements into architecture decisions, and partnered with designers to ship polished UX
   ],
