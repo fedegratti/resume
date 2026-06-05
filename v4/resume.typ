@@ -63,7 +63,7 @@
 #section("Skills")
 #oneline-title-item(
   title: "Skills",
-  content: [Ruby, JavaScript, TypeScript, SQL, Ruby on Rails, Hotwire, Turbo, Stiumulus, AWS, Docker, PostgreSQL, Redis, Sidekiq, WebSockets, REST, GraphQL, SDD, RSpec, TDD, OOP, MVC, Code Review, Scrum],
+  content: [Ruby, JavaScript, TypeScript, SQL, Ruby on Rails, Hotwire, Turbo, Stimulus, AWS, Docker, PostgreSQL, Redis, Sidekiq, WebSockets, REST, GraphQL, SDD, RSpec, TDD, OOP, MVC, Code Review, Scrum],
 )
 
 #sectionsep
